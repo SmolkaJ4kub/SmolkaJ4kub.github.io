@@ -544,19 +544,12 @@ a:focus-visible {
 
 .visual-google {
   height: auto;
-  aspect-ratio: 16 / 10;
 }
 
 .visual-google img {
+  display: block;
   width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
-  transition: transform 180ms ease;
-}
-
-.project-google:hover .visual-google img {
-  transform: scale(1.035);
+  height: auto;
 }
 
 .visual-google .visual-caption {
